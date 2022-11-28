@@ -1,0 +1,40 @@
+
+body{background-color: aqua;}
+
+.div2{ height: 15px;
+    width: 150px;
+background-color: orange;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+  .div1 {
+    bottom: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 10px;
+    background-color: whitesmoke;
+    left: 133px;
+    top: 20px;
+    animation-name: color-change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    border-radius: 40%;
+  }
+  
+  @keyframes color-change {
+    from {
+      background-color: none;
+    }
+  
+    to {
+      background-color: white;
+      width: 10px;
+      left: 133px;
+      top: 20px;
+    }
